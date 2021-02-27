@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* {
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  height: 80px;
+  background-color: #5a442a;
+}
+
+header .header-logo {
+  padding: 20px 0 0 20px;
+}
+
+header .header-logo p {
+  font-size: 32px;
+  color: #ffffff;
+  line-height: 1;
+}
+
+header .header-logo p span {
+  font-size: 20px;
+}
+
+main .main-vis {
+  width: 100%;
+  min-width: 1000px;
+  vertical-align: top;
+}
+
+main .blogs {
+  background-color: #faf5ed;
+  padding: 50px 20px;
+}
+
+main .blogs .blogs-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #707070;
+}
+
+main .blogs .blogs-title span {
+  font-size: 36px;
+}
+
+main .blogs .blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  height: 280px;
+}
+
+main .blogs .blog img {
+  width: 480px;
+  color: #707070;
+}
+
+main .blogs .blog p {
+  margin-left: 20px;
+  width: 460px;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+main .blogs .last-mon {
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer {
+  background-color: #5a442a;
+  height: 60px;
+  padding-top: 20px;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
